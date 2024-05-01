@@ -1,0 +1,2 @@
+1. The bug was that the nums were string types and not an int or number type. As a result, the string of numbers were just being concatenated with one another
+2. To fix this issue, I would utilize the unary plus to convert the strings into numbers. 
