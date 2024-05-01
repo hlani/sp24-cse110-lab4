@@ -28,5 +28,6 @@
     - D. 2 === '2' = false: Strictly checks the value and type without any conversion.
     - E. true == 2 = false: True as an int is converted to 1 and is not equivalent to 2. 
     - F. true === Boolean(2) = true: Boolean(2) is the same as true and is the same type and value, results in true.    
-15. The primary difference between ```==``` and ```===``` is that one of them include
-17. 
+15. The primary difference between ```==``` and ```===``` is that the triple equals include checking strictly the type and value without any conversions. While the double equal checks if the value are the same and does automatic conversions. 
+17. The function ```modifyArray``` takes an array and applies the function or callback to return a ```newArr``` with different values due to the callback. As a result, we get [2,4,6]. The callback parameter was the ```do something``` function that doubled the numbers in the given array.
+19. 1, 4, 3, 2

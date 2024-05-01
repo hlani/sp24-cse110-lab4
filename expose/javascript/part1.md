@@ -1,4 +1,4 @@
-1. 20
+exit1. 20
 2. 20
 3. 20
 4. Would gett an error because ```let results``` was declared in a block scope that was not part of of the  ```"final result"``` print. Thus, we got an error.
